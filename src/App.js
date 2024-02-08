@@ -3,11 +3,12 @@ import "./App.css";
 // IMPORT COMPONENTS 
 import Header from "./Components/Header"; 
 import Footer from "./Components/Footer"; 
-import { Route, Switch } from "react-router-dom"; 
+import { Route, Routes } from "react-router-dom"; 
 
 // IMPORT PAGES 
 import Home from "./Pages/Home"; 
-import About from "./Pages/About"; 
+import About from "./Pages/About";
+import Projects from "./Pages/Projects"; 
 
 function App() { 
   // URL should have YOUR HEROKU URL for your backend, make sure you include the trailing slash 
@@ -18,26 +19,15 @@ function App() {
 
     <Header /> 
 
-    <Switch> 
-
-      <Route exact path="/"> 
-        <Home /> 
-      </Route>
-
-      <Route path="/projects"> 
-        <Projects URL={URL} /> 
-      </Route>
-
-      <Route path="/about"> 
-        <About URL={URL} /> 
-      </Route>
-
-    </Switch> 
+    <Routes> 
+      <Route path="/" element={<Home />} /> 
+      <Route path="/projects" element={<Projects URL={URL} />} /> 
+      <Route path="/about" element={<About URL={URL} />} /> 
+    </Routes> 
 
     <Footer /> 
     </div> 
   ); 
 } 
     
-    
-    export default App;
+export default App;

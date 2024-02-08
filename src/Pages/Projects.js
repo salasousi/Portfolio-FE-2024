@@ -5,7 +5,7 @@ function Projects(props) {
     const [projects, setProjects] = useState(null); 
     
     //create function to make api call 
-    const getProjectsData = async () => { 
+    const getProjectsData = async() => { 
         //make api call and get response 
         const response = await fetch(props.URL + "projects"); 
         
@@ -17,7 +17,7 @@ function Projects(props) {
     }; 
     
     
-    useEffect(() => getProjectsData(), []); 
+    useEffect(() => {getProjectsData()}, []); 
     
     const loaded = () => { 
         return projects.map((project) => ( 
@@ -38,6 +38,5 @@ function Projects(props) {
     }; 
     return projects ? loaded() : <h1>Loading...</h1>; 
 } 
-
 
 export default Projects;
