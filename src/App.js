@@ -1,8 +1,10 @@
 import "./App.css"; 
+import "./Nav.css";
 
 // IMPORT COMPONENTS 
 import Header from "./Components/Header"; 
 import Footer from "./Components/Footer"; 
+import Nav from "./Components/Nav";
 import { Route, Routes } from "react-router-dom"; 
 
 // IMPORT PAGES 
@@ -18,6 +20,10 @@ function App() {
     <div className="App"> 
 
     <Header /> 
+
+    {/* changes here  */}
+    <Nav/>
+    
 
     <Routes> 
       <Route path="/" element={<Home />} /> 
