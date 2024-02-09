@@ -1,10 +1,11 @@
 import "./App.css"; 
 import "./Nav.css";
+import "./Header.css";
 
 // IMPORT COMPONENTS 
 import Header from "./Components/Header"; 
 import Footer from "./Components/Footer"; 
-import Nav from "./Components/Nav";
+
 import { Route, Routes } from "react-router-dom"; 
 
 // IMPORT PAGES 
@@ -21,8 +22,7 @@ function App() {
 
     <Header /> 
 
-    {/* changes here  */}
-    <Nav/>
+    {/* <Nav/> */}
     
 
     <Routes> 

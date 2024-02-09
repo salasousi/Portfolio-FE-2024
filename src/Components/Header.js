@@ -1,37 +1,16 @@
+import Nav from "./Nav"; 
 
-
-// import { Link } from "react-router-dom"; 
 function Header(props) { 
     
-
-    // const navStyle = { 
-    //     display: "flex", 
-    //     justifyContent: "space-around", 
-    //     border: "3px solid black", 
-    //     padding: "8px", 
-    //     width: "90%", 
-    //     margin: "auto", 
-    // }; 
-
     return ( 
     <header> 
-        
-        <h1>My Portfolio Page</h1>
-
-        {/* <nav style={navStyle}> 
-            <Link to="/"> 
-                <div>HOME</div> 
-            </Link> 
-            
-            <Link to="/about"> 
-                <div>ABOUT</div> 
-            </Link> 
-            
-            <Link to="/projects"> 
-                <div>PROJECTS</div> 
-            </Link> 
-        </nav>  */}
-        
+        <div class="container">
+            <input id="responsive-menu" type="checkbox"></input>
+            <label for="responsive-menu"><span id="menu-icon"></span></label>
+            <ul>
+                <Nav />
+            </ul>
+        </div>   
     </header> 
     ); 
 } 

@@ -86,9 +86,6 @@ function Nav(props) {
 			</main>
   	</body>
 
-
-
-
 	); 
 } 
 
