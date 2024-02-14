@@ -49,6 +49,10 @@ body {
 	font-family: sofia-pro, sans-serif;
 } */
 
+
+.aboutMe{
+
+
 h2{
     color:#d31000;
     font-size: 4rem;
@@ -84,4 +88,4 @@ hr{
     border-top: 1px solid #d31000;
 }
 
-
+}

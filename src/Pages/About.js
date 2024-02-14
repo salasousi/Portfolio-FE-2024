@@ -17,7 +17,7 @@ function About(props) {
     useEffect(() => {getAboutData()}, []); 
 
     const loaded = () => (
-        <div>
+        <div className="aboutMe">
             <h2>{about.name}</h2>
             <h4><em>{about.email}</em></h4>
             <h4><a href={about.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a></h4>

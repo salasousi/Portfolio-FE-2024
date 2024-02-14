@@ -1,0 +1,22 @@
+.Resume{
+    *{
+        color:#d31000;
+    }
+
+    hr{
+        border-top: 1px solid red;
+    }
+
+    h3{
+        text-align: left;
+        padding-left: 50px;
+    }
+
+    p{
+        text-align: left;
+        padding-left: 50px;
+        padding-right: 40px;
+        line-height: 30px;
+    }
+
+}
