@@ -11,9 +11,9 @@
 body {
 	margin: 0;
 	--color-text: #111;
-	--color-bg: #FFD6E7;
-	--color-link: #b19e7f;
-	--color-link-hover: #000;
+	--color-bg: #f4dee2;
+	--color-link: #d31000;
+	--color-link-hover: #ffffff;
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	-webkit-font-smoothing: antialiased;

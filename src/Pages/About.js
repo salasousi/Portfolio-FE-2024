@@ -1,6 +1,7 @@
 //state variable to hold data, effect function to prevent infinite loop
 import { useState, useEffect } from "react"; 
 
+
 function About(props) { 
     // create state to hold about data 
     const [about, setAbout] = useState(null); 

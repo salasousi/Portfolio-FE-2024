@@ -2,6 +2,7 @@ import "./App.css";
 import "./Nav.css";
 import "./Header.css";
 
+
 // IMPORT COMPONENTS 
 import Header from "./Components/Header"; 
 import Footer from "./Components/Footer"; 
@@ -34,6 +35,6 @@ function App() {
     <Footer /> 
     </div> 
   ); 
-} 
+}
     
 export default App;
