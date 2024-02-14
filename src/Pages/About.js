@@ -1,6 +1,7 @@
 //state variable to hold data, effect function to prevent infinite loop
 import { useState, useEffect } from "react"; 
 
+import "../About.css";
 
 function About(props) { 
     // create state to hold about data 
@@ -18,8 +19,10 @@ function About(props) {
     const loaded = () => (
         <div>
             <h2>{about.name}</h2>
-            <h3>{about.email}</h3>
-            <p>{about.bio}</p>
+            <h4><em>{about.email}</em></h4>
+            <h4><a href={about.linkedin} target="_blank" rel="noopener noreferrer">LinkedIn</a></h4>
+            <h4><a href={about.github} target="_blank" rel="noopener noreferrer">GitHub</a></h4>
+            <p><hr></hr>{about.bio}</p>
         </div>
     );
 

@@ -5,7 +5,7 @@ import "./Header.css";
 
 // IMPORT COMPONENTS 
 import Header from "./Components/Header"; 
-import Footer from "./Components/Footer"; 
+// import Footer from "./Components/Footer"; 
 
 import { Route, Routes } from "react-router-dom"; 
 
@@ -32,7 +32,7 @@ function App() {
       <Route path="/about" element={<About URL={URL} />} /> 
     </Routes> 
 
-    <Footer /> 
+    {/* <Footer />  */}
     </div> 
   ); 
 }
