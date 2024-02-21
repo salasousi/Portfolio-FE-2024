@@ -43,6 +43,7 @@ function Projects(props) {
     //     )); 
     // }; 
 
+
     const Accordion = (project) => {
         const [isActive, setIsActive] = useState(false);
 
@@ -58,7 +59,18 @@ function Projects(props) {
                         {isActive ? <FontAwesomeIcon icon={faArrowRight}/> : <FontAwesomeIcon icon={faArrowDown} />}
                     </a>
                     {isActive && <div className="answer">
-                            <p> <img src={project.image} alt=""/> 
+                            <div className="left"> 
+                                <img src={project.image} alt=""/> 
+                            </div>
+                            <div className="right">
+                                <ul>
+                                    {project.techs.map(techs => (
+                                        <li key={techs}>
+                                        {techs}
+                                        </li>
+                                        ))
+                                    }
+                                </ul>
                                 <a href={project.git} target="_blank" rel="noopener noreferrer"> 
                                     <button className="button">
                                         <div className="button__bg"></div><span>GitHub</span>
@@ -71,8 +83,8 @@ function Projects(props) {
                                     </button> 
                                 </a> 
 
-                               
-                            </p>
+                            </div>
+
                         </div>}
                         <hr></hr>
                         </div>
@@ -87,7 +99,7 @@ function Projects(props) {
         return ( 
             <div className="accordion">
                 {projects.map((project) => (
-                    <Accordion name={project.name} image={project.image} git={project.git} live={project.live}/>
+                    <Accordion name={project.name} image={project.image} techs={project.techs} git={project.git} live={project.live}/>
                 ))}
             </div>
         ); 
