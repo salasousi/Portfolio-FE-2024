@@ -22,7 +22,7 @@ function Projects(props) {
         setProjects(data); 
     }; 
     
-    
+
     useEffect(() => {getProjectsData()}, []); 
     
     // const loaded = () => { 
@@ -51,7 +51,7 @@ function Projects(props) {
             <div className="accordion-container">
             <div className="accordion">
                 <div className="accordion-item" >
-                    <a className="accordion-link" onClick={() => setIsActive(!isActive)}>
+                    <a className="accordion-link" href={project.id} onClick={() => setIsActive(!isActive)}>
                         <div className="flex">
                             <h1>{project.name}</h1> 
                         </div>
@@ -92,8 +92,6 @@ function Projects(props) {
                 </div>
         );
     };
-
-    
 
     const loaded = () => { 
         return ( 

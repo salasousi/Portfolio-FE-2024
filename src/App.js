@@ -22,8 +22,8 @@ function App() {
   return ( 
     <div className="App"> 
 
-    {/* <Header />  */}
-    {window.location.pathname !== "/" ? ( <Header /> ) : null}
+    <Header /> 
+    {/* {window.location.pathname !== "/" ? ( <Header /> ) : null} */}
 
     <Routes> 
       <Route path="/" element={<Home />} /> 
