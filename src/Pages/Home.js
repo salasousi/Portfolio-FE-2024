@@ -113,8 +113,9 @@ function Home(props) {
 
          		<div class="right-content">
             		<h2>Hello World <FontAwesomeIcon icon={faHandPeace}/> <br/>I am a young Software Engineer with an ardent passion for creativity. I thrive on the intersection of technology and art, finding joy in crafting innovative solutions and bringing ideas to life through code. Welcome to my portfolio</h2>
-					<img class="headshot" src="https://private-user-images.githubusercontent.com/102608394/310738562-d8c81a9c-07ed-40a0-b579-591bf48c91b8.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk3ODMyMTMsIm5iZiI6MTcwOTc4MjkxMywicGF0aCI6Ii8xMDI2MDgzOTQvMzEwNzM4NTYyLWQ4YzgxYTljLTA3ZWQtNDBhMC1iNTc5LTU5MWJmNDhjOTFiOC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QwMzQxNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYWU2MTEwZjVkODhmNGIxNGM3NzdmNDAwMmNjNDBiNzMyYjEwYTJmY2U0N2U5NzY4Y2MzNGE2ZjExYjIyMjEzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lLqYVy6-DXhA2l40BzyUlkbtHurHOfJV6-8i9A2jnH4/" alt="girl headshot" width="300" height="300"/>
-          		</div>
+					{/* <img class="headshot" src="https://private-user-images.githubusercontent.com/102608394/310738562-d8c81a9c-07ed-40a0-b579-591bf48c91b8.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDk3ODMyMTMsIm5iZiI6MTcwOTc4MjkxMywicGF0aCI6Ii8xMDI2MDgzOTQvMzEwNzM4NTYyLWQ4YzgxYTljLTA3ZWQtNDBhMC1iNTc5LTU5MWJmNDhjOTFiOC5qcGc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwMzA3JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDMwN1QwMzQxNTNaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYWU2MTEwZjVkODhmNGIxNGM3NzdmNDAwMmNjNDBiNzMyYjEwYTJmY2U0N2U5NzY4Y2MzNGE2ZjExYjIyMjEzJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.lLqYVy6-DXhA2l40BzyUlkbtHurHOfJV6-8i9A2jnH4/" alt="girl headshot" width="300" height="300"/> */}
+					<img class="headshot" src='https://imgur.com/dpOYxuc/'alt="girl headshot" width="300" height="300"/>
+				</div>
 
 				
   			</main>
