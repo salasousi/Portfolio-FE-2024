@@ -123,15 +123,14 @@
     .main {
         position: absolute;
         top: 0;
-        height: 100vh;
         width: auto;
         display: flex;
         flex-direction: column;
         background-color: #f4dee2;
-        overflow-y: auto;
         overflow: hidden;
         position: relative;
         margin: 0 auto;
+        padding-bottom: 10%;
     }
 
 .left-content h1 {
@@ -150,7 +149,7 @@
   display: block;
   font-size: 80px;
   height: 80px;
-  line-height: .6;
+  line-height: .9;
 }
 
 .left-content h1 .char {
@@ -169,5 +168,27 @@
     margin-right: 2%;
     font-weight: 600;
 }
- 
+
+.headshot{
+    border-radius: 200px;
+    background:  #f4dee2;
+    display: block;
+    /* margin-left: auto; */
+    margin-right: auto;
+    padding-top: 0;
+    margin-left: 5%;
+
+    
+}
+
+
+@media screen and (max-width:800px){
+    .left-content h1 .text{
+        height: 140px;
+    }
+}
+
+
+
+/* ICON STYLING */
 
